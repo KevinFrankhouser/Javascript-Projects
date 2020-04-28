@@ -1,3 +1,5 @@
+window.alert(Math.random() * 1000)
+
 function addition1() {
     var simple_add = 5 + 5;
     document.getElementById("Math_Add").innerHTML = "The answer is " + simple_add;
@@ -23,14 +25,12 @@ function modulus1() {
     document.getElementById("Math_Mod").innerHTML = "The answer is " + simple_mod;
 }
 
-window.alert(Math.random() * 1000)
 
-function inc1() {
-    var simple_add = 5 + 5;
-    document.getElementById("Math_Add").innerHTML = "The answer is " + simple_add;
-}
 
-function dec1() {
-    var simple_add = 5 + 5;
-    document.getElementById("Math_Add").innerHTML = "The answer is " + simple_add;
-}
+var x = 5;
+x++;
+document.write(x );
+
+var y = 5;
+y--;
+document.write(y);
